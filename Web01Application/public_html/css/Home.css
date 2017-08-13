@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 12, 2017, 6:44:49 PM
+    Author     : Ellithy
+*/
+.inner-center-column {
+    width: 430px;
+}
+.inner-center-column {
+    float: left;
+    width: 487px;
+    padding-left: 20px;
+    padding-right: 12px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+.inner-center-column h2, .inner-two-columns h2, .two-columns-right h2, .calendar-right-side h2, .apply-container h2 {
+    font: 20px 'gotham_mediumregular';
+    border-bottom: 1px solid #CCC;
+    text-transform: uppercase;
+    color: #333;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin-bottom: 23px;
+}
+.inner-center-column p, .inner-two-columns p, .cal-guide p, .two-columns-right p, .list_head, .partner-data-details, .calendar-right-side .news-block p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 98%;
+    margin-bottom: 30px;
+}
+.inner-center-column h3, .inner-two-columns h3, .two-columns-right h3, .cal-guide h3, .calendar-right-side h3 {
+    font: 18px 'gotham_mediumregular';
+    color: #a60f15;
+    margin-bottom: 23px;
+}
+.inner-center-column p+ul, .inner-two-columns p+ul {
+    margin-top: -20px;
+}
+
+.inner-center-column ul, .inner-two-columns ul {
+    margin-bottom: 25px;
+}
+
+ol, ul {
+    list-style: none;
+}
+.inner-center-column ul li, .inner-two-columns ul li {
+    padding: 3px 0;
+    color: #343434;
+    overflow: hidden;
+    line-height: 1.4em;
+    font-size: 13px;
+}
+.inner-center-column ul li span, .inner-two-columns ul li span, .news-block p .bullet-list li span {
+    background: #a60f15;
+    width: 3px;
+    height: 3px;
+    float: left;
+    margin-top: 7px;
+    margin-right: 11px;
+}
+.list_text {
+    float: left;
+    width: 90%;
+}
